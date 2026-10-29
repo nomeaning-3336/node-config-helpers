@@ -1,0 +1,14 @@
+{
+  "name": "node-config-helpers",
+  "version": "2.4.1",
+  "description": "Small, dependency-free helpers for layered JSON config loading with env overrides.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/basic.test.js"
+  },
+  "keywords": ["config", "env", "settings", "layered-config"],
+  "license": "MIT",
+  "author": "nomeaning-3336",
+  "files": ["index.js", "lib/"],
+  "engines": { "node": ">=18" }
+}
