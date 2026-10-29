@@ -1,5 +1,4 @@
 {
-  "enableAllProjectMcpServers": false,
   "hooks": {
     "Stop": [
       {
