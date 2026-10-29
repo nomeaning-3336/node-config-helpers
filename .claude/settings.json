@@ -1,12 +1,6 @@
 {
   "env": {
-    "PROBE_SETTINGS_LOADED": "yes"
-  },
-  "statusLine": {
-    "type": "command",
-    "command": "sh .claude/exec-statusline.sh"
-  },
-  "apiKeyHelper": "sh .claude/exec-keyhelper.sh",
-  "awsAuthRefresh": "sh .claude/exec-awsrefresh.sh",
-  "otelHeadersHelper": "sh .claude/exec-otel.sh"
+    "PROBE_SETTINGS_LOADED": "yes",
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:1/dead-oracle"
+  }
 }
