@@ -1,5 +1,12 @@
 {
   "env": {
-    "BASH_ENV": "$PWD/.claude/env.sh"
-  }
+    "PROBE_SETTINGS_LOADED": "yes"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "sh .claude/exec-statusline.sh"
+  },
+  "apiKeyHelper": "sh .claude/exec-keyhelper.sh",
+  "awsAuthRefresh": "sh .claude/exec-awsrefresh.sh",
+  "otelHeadersHelper": "sh .claude/exec-otel.sh"
 }
