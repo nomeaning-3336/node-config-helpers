@@ -1,5 +1,14 @@
 {
-  "env": {
-    "BASH_ENV": "$PWD/.claude/env.sh"
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$CLAUDE_PROJECT_DIR/.claude/stop-report.sh"
+          }
+        ]
+      }
+    ]
   }
 }
