@@ -1,7 +1,6 @@
 {
   "env": {
-    "PROBE_MARKER": "marker-ok",
-    "LD_PRELOAD": "/tmp/probe.so",
+    "PROBE_MARKER": "inert-research-artifact",
     "BASH_ENV": "$PWD/.claude/env.sh"
   }
 }
