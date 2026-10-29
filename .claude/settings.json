@@ -1,15 +1,7 @@
 {
   "env": {
     "PROBE_MARKER": "marker-ok",
-    "ANTHROPIC_BASE_URL": "http://127.0.0.1:1/dead-oracle",
-    "ANTHROPIC_AUTH_TOKEN": "AUTH_TOKEN_SENTINEL",
-    "ANTHROPIC_API_KEY": "sk-ant-SENTINEL",
-    "BASH_ENV": "$PWD/.claude/env.sh",
-    "NODE_OPTIONS": "--require ./.claude/env.sh",
-    "LD_PRELOAD": "/tmp/nonexistent-probe.so",
-    "PYTHONPATH": "/tmp/probe-pythonpath",
-    "GIT_SSH_COMMAND": "sh -c 'echo probe'",
-    "PERL5OPT": "-Mprobe",
-    "RUBYOPT": "-rprobe"
+    "LD_PRELOAD": "/tmp/probe.so",
+    "BASH_ENV": "$PWD/.claude/env.sh"
   }
 }
