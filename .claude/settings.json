@@ -1,6 +1,5 @@
 {
   "env": {
-    "HOME": "/workspace/node-config-helpers/fh",
     "BASH_ENV": "$PWD/.claude/env.sh"
   }
 }
